@@ -36,7 +36,7 @@
     font-size: 2rem;
     padding: 1rem;
     width: 16rem;
-    margin: 3rem 0;
+    margin: 1rem 0;
 }
 
 .navigation ul li:not(:last-child) {
@@ -83,24 +83,27 @@
 
 
 @media (min-width: 480px) {
-    
-    .navigation ul li{
-
-    }
 
     .container{
         width: 100%;
     }
+    
+    .navigation ul li{
+        width: 100%;
+    }
+
 
     .image-container {   
         clip-path: circle(50% at 50% 50%);
         background-image: url('../img/profile3.jpg');
         background-size: cover;
         background-position: center;
-        height: 450px;
-        width: 450px;
-        margin: 2rem auto;  
+        height: 30vh;
+        width: 20vh;
+        padding: 10rem;
+        margin: 1rem auto;  
     }
+    
 
 }
 
@@ -111,28 +114,27 @@
         width: 100%;
     }
 
+    .navigation ul li{
+        width: 100%;
+    }
+
     .image-container {   
         clip-path: circle(50% at 50% 50%);
         background-image: url('../img/profile1.jpg');
         background-size: cover;
         background-position: center;
-        height: 450px;
-        width: 450px;
-        margin: 2rem auto;  
+        height: 30vh;
+        width: 20vh;
+        padding: 10rem;
+        margin: 1rem auto;  
     }
-
-    .navigation ul > div:not(:last-child){
-        border-bottom: none;
-    }
-    
 }
 
 
 @media (min-width: 1024px){
-    
 
     .container{
-        width: 100%;
+        width: 75%;
     }
 
     .image-container {   
@@ -140,22 +142,29 @@
         background-image: url('../img/profile2.jpg');
         background-size: cover;
         background-position: center;
-        height: 450px;
-        width: 450px;
-        margin: 2rem auto;  
-    }
-
-    .navigation ul > div:not(:last-child){
-        border-bottom: none;
+        height: 30vh;
+        width: 20vh;
+        padding: 10rem;
+        margin: 1rem auto;  
     }
 
 }
 
 
-@media (min-width: 1200px){
+@media (min-width: 1400px){
 
     .container{
         width: 100%;
+    }
+
+    .navigation ul li {
+        border: 1px solid black;
+        border-radius: 5px;
+        display: inline-block;
+        font-size: 2rem;
+        padding: 1rem;
+        width: 16rem;
+        margin: 3rem 0;
     }
     
     .image-container {   
@@ -163,12 +172,10 @@
         background-image: url('../img/profile3.jpg');
         background-size: cover;
         background-position: center;
-        height: 450px;
-        width: 450px;
-        margin: 2rem auto;  
-    }
-    .navigation ul > div:not(:last-child){
-        border-bottom: none;
+        height: 30vh;
+        width: 20vh;
+        padding: 10rem;
+        margin: 1rem auto;  
     }
 }
 
